@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/ivBack"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Folders"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tvFolderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Structures"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+</LinearLayout>
